@@ -1,0 +1,3 @@
+http://vision.gel.ulaval.ca/~klein/lothello/othello.htm
+https://kartikkukreja.wordpress.com/2013/03/30/heuristic-function-for-reversiothello/
+http://rousset.yohan.free.fr/inge2_prolog.php / http://rousset.yohan.free.fr/images_prolog/Devoir_de_Programmation_Logique.pdf
