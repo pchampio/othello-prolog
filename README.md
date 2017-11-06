@@ -35,10 +35,10 @@ different weights to those heuristics.
 
 These heuristics take into account:
 
-  - the mobility
-  - coin parity
-  - stability
-  - corners-captured
+  - The coin parity [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L22-L34)
+  - The mobility [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L37-L72)
+  - The stability [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L22-L34)
+  - corners-captured [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L22-L34)
 
 
 ### Performance
