@@ -27,11 +27,11 @@ This app allows 2 players to play an Othello game.
 ### Play using the console
 Load the file in the swipl-interpreter:
 ```
-swipl ./othello.pl
+$ swipl ./othello.pl
 ```
 Play the game:
 ```
-> ?- play.
+>?- play.
 ```
 
 ## Things about this implementation
