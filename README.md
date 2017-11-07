@@ -54,7 +54,7 @@ These heuristics take into account:
 
 
 ### Performances
-> To ensure the best **performance** and to improve the **bot playing time** he Game Engine use [cache.pl](./utils/cache.pl) system.  
+> To ensure the best **performance** and to improve the **bot playing time** the Game Engine use a [cache.pl](./utils/cache.pl) system.  
 
 The Cache allow to not recompute the Heuristic of a board if prolog has
 already seen it [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L183-L204).
