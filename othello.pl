@@ -93,7 +93,7 @@ playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
 
 playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
   playerType(Player, minmax),
-  Depth = 4,
+  Depth = 3,
   afficheCellule(Player), write('- MinMax.. Depth: ') ,write(Depth), nl,
   afficheGrille(Grid, Alpha_last, Index_last),
   nl, displayRunTime(' - Running since: '),

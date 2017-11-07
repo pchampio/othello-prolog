@@ -39,7 +39,7 @@ Play the game:
 ### Heuristic/Evaluation Function 
 
 I used [this](https://courses.cs.washington.edu/courses/cse573/04au/Project/mini1/RUSSIA/Final_Paper.pdf)
-excellent heuristic/evaluation function made by some researchers from University of Washington.
+excellent heuristic/evaluation function, made by some researchers from University of Washington.
 
 This heuristic function is actually a collection of several heuristics
 and calculates the utility value of a board position by assigning
@@ -88,5 +88,5 @@ Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
 ...
 
 
-### Note
+## Note
 > I always write the test of the rule/predicate, below and indented by 3 tabs the definition of itself.
