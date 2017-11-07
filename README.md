@@ -67,7 +67,7 @@ The Cache is also used to save the computing time of the [next board generation]
 witch in his own cut the number of call to this rule by half (20 seconds save).
 
 
-## MinMax Vs AlphaBeta
+## MinMax Vs AlphaBeta (depth = 3)
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/stats/minmax_vs_alphabeta.png">
