@@ -1,3 +1,4 @@
 http://vision.gel.ulaval.ca/~klein/lothello/othello.htm
+https://courses.cs.washington.edu/courses/cse573/04au/Project/mini1/RUSSIA/Final_Paper.pdf
 https://kartikkukreja.wordpress.com/2013/03/30/heuristic-function-for-reversiothello/
 http://rousset.yohan.free.fr/inge2_prolog.php / http://rousset.yohan.free.fr/images_prolog/Devoir_de_Programmation_Logique.pdf

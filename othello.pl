@@ -93,7 +93,7 @@ playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
 
 playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
   playerType(Player, minmax),
-  Depth = 3,
+  Depth = 4,
   afficheCellule(Player), write('- MinMax.. Depth: ') ,write(Depth), nl,
   afficheGrille(Grid, Alpha_last, Index_last),
   nl, displayRunTime(' - Running since: '),
@@ -102,7 +102,7 @@ playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
 
 playerInput(Grid, Alpha_last, Index_last, Alpha, Index, Player) :-
   playerType(Player, alphabeta),
-  Depth = 3,
+  Depth = 4,
   afficheCellule(Player), write('- AlphaBeta.. Depth: ') ,write(Depth), nl,
   afficheGrille(Grid, Alpha_last, Index_last),
   nl, displayRunTime(' - Running since: '),
