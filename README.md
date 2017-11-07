@@ -54,7 +54,7 @@ These heuristics take into account:
 
 
 ### Performances
-> To ensure the best **performance** and to improve the **bot playing** time he Game Engine use [cache.pl](./utils/cache.pl) system.  
+> To ensure the best **performance** and to improve the **bot playing time** he Game Engine use [cache.pl](./utils/cache.pl) system.  
 
 The Cache allow to not recompute the Heuristic of a board if prolog has
 already seen it [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L183-L204).
@@ -67,7 +67,7 @@ The Cache is also used to save the computing time of the [next board generation]
 witch in his own cut the number of call to this rule by half (20 seconds save).
 
 
-## MinMax Vs AlphaBeta
+## MinMax Vs AlphaBeta (depth = 3)
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/stats/minmax_vs_alphabeta.png">
