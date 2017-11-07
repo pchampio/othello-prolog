@@ -83,7 +83,7 @@ number of game combinations decreases gradually as we reach the
 edges.
 
 In depth 6 we have 3.8 million board
-analyzed finally to play an obvious shot find in depth 2.  
+analyzed, to play an obvious shot find in depth 2.  
 Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
 ...
 
