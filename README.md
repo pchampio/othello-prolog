@@ -63,15 +63,15 @@ This method saves (roughly):
   > - **20000** call out of **36000** when running a AlphaBeta of Depth 4 (-1min30 save on my machine **2min10** vs **3min40**).
   > - **66000** call out of **77000** when running a MinMax of Depth 4 (-9min save on my machine **11min** vs **20min**).
 
-The Cache is also used to save the computing time of the [next board generation](https://github.com/Drakirus/othello-prolog/blob/89c9372dfe8d426c356f1e8153ece6a9e1db4295/game/rules.pl#L258-L269)
+The Cache is also used to save some computing time of the [next board generation](https://github.com/Drakirus/othello-prolog/blob/89c9372dfe8d426c356f1e8153ece6a9e1db4295/game/rules.pl#L258-L269)
 witch in his own cut the number of call to this rule by half (20 seconds save).
 
 
 ## MinMax Vs AlphaBeta (depth = 3)
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/stats/minmax_vs_alphabeta.png">
-    <img alt="MinMax vs AlphaBeta" src="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/stats/minmax_vs_alphabeta.png">
+  <a href="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/minmax_vs_alphabeta.png">
+    <img alt="MinMax vs AlphaBeta" src="https://raw.githubusercontent.com/Drakirus/othello-prolog/master/minmax_vs_alphabeta.png">
   </a>
 </p>
 
