@@ -92,7 +92,7 @@ Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
 > I always write the test of the rule/predicate, below and indented by 3 tabs the definition of itself.
 
 ## Todo
-  1. +/-inf heuristic when wining/losing. (some plays are more rewards than a winning one..)
+  1. +/-inf heuristic when wining/losing. (some plays are more rewards than a winning one..)  
   2. Dynamic stability_weights
       - The [stability_weights](https://github.com/Drakirus/othello-prolog/blob/d2a668b69f1844ba549eea9a6561505d8a57de9c/ai/heuristic.pl#L115) penalize the player making a move on a adjacent corners cell. But if the same player own the related corner it's actualy not a bad move..
       
