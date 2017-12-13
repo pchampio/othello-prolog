@@ -104,4 +104,5 @@ Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
       - En the very end of the game we only focus on the coin parity  
        
   4. Remove the ugly if/then/else  
+  
   5. GnuProlog (2x faster)
