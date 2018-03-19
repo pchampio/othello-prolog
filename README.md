@@ -89,7 +89,7 @@ Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
 
 
 ## Note
-> I always write the test of the rule/predicate, below and indented by 3 tabs the definition of itself.
+> I always write the test of the rule/predicate, below and indented by 3 tabs of the definition of itself.
 
 ## Todo
   1. +/-inf heuristic when wining/losing. (some plays are more rewards than a winning one..)  
