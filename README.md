@@ -17,7 +17,7 @@ This app allows 2 players to play an Othello game.
 >
 >
 > `-- Set the Player x to be a --`  
->  `1. Human`  ---> User input. [primpt.pl](./game/prompt.pl)  
+>  `1. Human`  ---> User input. [prompt.pl](./game/prompt.pl)  
 >  `2. Bot (random)`    ---> A totally random AI. [random.pl](./ai/random.pl)   
 >  `3. Bot (minmax)`    ---> An AI using the min-max algorithm. [minmax.pl](./ai/minmax.pl)  
 >  `4. Bot (alphabeta)` ---> An AI using the alpha-beta algorithm. [alphabeta.pl](./ai/alphabeta.pl)  
