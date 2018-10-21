@@ -1,18 +1,18 @@
-:- include('./game/display.pl').
-:- include('./game/prompt.pl').
-:- include('./game/representation.pl').
-:- include('./game/rules.pl').
+:- ensure_loaded('./game/display.pl').
+:- ensure_loaded('./game/prompt.pl').
+:- ensure_loaded('./game/representation.pl').
+:- ensure_loaded('./game/rules.pl').
 
 
-:- include('./ai/random.pl').
-:- include('./ai/alphabeta.pl').
-:- include('./ai/heuristic.pl').
-:- include('./ai/minmax.pl').
+:- ensure_loaded('./ai/random.pl').
+:- ensure_loaded('./ai/alphabeta.pl').
+:- ensure_loaded('./ai/heuristic.pl').
+:- ensure_loaded('./ai/minmax.pl').
 
-:- include('./utils/utils_ai.pl').
-:- include('./utils/cache.pl').
-:- include('./utils/list.pl').
-:- include('./utils/stats.pl').
+:- ensure_loaded('./utils/utils_ai.pl').
+:- ensure_loaded('./utils/cache.pl').
+:- ensure_loaded('./utils/list.pl').
+:- ensure_loaded('./utils/stats.pl').
 
 
 play :-

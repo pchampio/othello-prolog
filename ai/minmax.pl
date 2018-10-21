@@ -67,7 +67,7 @@ getScoreMinMax([First_grid|Rest_grid], MaxPlayer, MinPlayer, Depth, OldRes, RETU
       % use_module(library(statistics)).
       % grilleDeDepart([L1|Rest]), Block = ["-", "-", "-", "-", "-", o, o, x],  GrilleBlock= [L1, L1, L1, L1, L1, Block, Block, Block],
       % afficheGrille(GrilleBlock),
-      % (minmax(GrilleBlock, x, 8,  R)).
+      % (minmax(GrilleBlock, x, 3,  R)).
 
 
 % vim:set et sw=2 ts=2 ft=prolog:

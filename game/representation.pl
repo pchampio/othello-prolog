@@ -42,6 +42,7 @@ succNumError(A,B) :- succNum(A,B).
 
 %%%  from a index get a Alpha i.e.(2 ->b) %%%
 
+%%%% Fast
 alphaFromIndex(1,a).
 alphaFromIndex(2,b).
 alphaFromIndex(3,c).
@@ -52,6 +53,7 @@ alphaFromIndex(7,g).
 alphaFromIndex(8,h).
 alphaFromIndex(9,i).
 
+%%% Slow
 % alphaFromIndex(NumAsk, Res) :-
   % alphaFromIndex(NumAsk, a, Res).
 
@@ -69,7 +71,7 @@ alphaFromIndex(9,i).
 
       % alphaFromIndex(9, Res). %test Res = i. % no fail
 
-%% get the current position of hd(List) from the Rest of Hd(List)
+%% get the current position given the Tail of the List.
 currentIndex(List, Index) :-
   length(List, Len), Index is -(9, Len).
 
@@ -97,6 +99,9 @@ ligneDansGrille(NumLigne, [_|T], Ligne, NumCourant):-
 
       % grilleDeDepart(Grille),
       % ligneDansGrille(8, Grille, ["-", "-", "-", "-", "-", "-", "-", "-"]). %test Match
+
+      % grilleDeDepart(Grille),
+      % ligneDansGrille(8, Grille, [o, "-", "-", "-", "-", "-", "-", "-"]). %test not Match
 
 %%% True if Value at a NumCol match %%%
 caseDansLigne(AlphaCol, Ligne, Valeur):-
