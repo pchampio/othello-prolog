@@ -1,6 +1,6 @@
 # Othello Prolog
 
-> A fully functional [Othello game](https://en.wikipedia.org/wiki/Reversi), made for the [swi prolog interpreter](http://www.swi-prolog.org/)
+> A fully functional [Othello game](https://en.wikipedia.org/wiki/Reversi), with several AIs, made for the [swi prolog interpreter](http://www.swi-prolog.org/)
 
 <p align="center">
   <a href="https://github.com/Drakirus/othello-prolog/blob/master/demo.gif">
