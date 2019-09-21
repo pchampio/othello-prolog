@@ -12,8 +12,7 @@
 
 This app allows 2 players to play an Othello game.
 
-> During de pre-game menu the admin can set the 2 players to be ether a human or
-> a AIs
+> During de pre-game menu the admin can set the two players to human or AIs. 
 >
 >
 > `-- Set the Player x to be a --`  
@@ -22,9 +21,9 @@ This app allows 2 players to play an Othello game.
 >  `3. Bot (minmax)`    ---> An AI using the min-max algorithm. [minmax.pl](./ai/minmax.pl)  
 >  `4. Bot (alphabeta)` ---> An AI using the alpha-beta algorithm. [alphabeta.pl](./ai/alphabeta.pl)  
 
-## Usages
+## Usage
 
-### Play using the console
+### Play
 Load the file in the swipl-interpreter:
 ```
 $ swipl ./othello.pl
@@ -36,16 +35,16 @@ Play the game:
 
 ## Things about this implementation
 
-### Heuristic/Evaluation Function 
+### Heuristic/Evaluation function 
 
 I used [this](https://courses.cs.washington.edu/courses/cse573/04au/Project/mini1/RUSSIA/Final_Paper.pdf)
-excellent heuristic/evaluation function, made by some researchers from University of Washington.
+excellent heuristic/evaluation function, made by researchers from the University of Washington.
 
 This heuristic function is actually a collection of several heuristics
 and calculates the utility value of a board position by assigning
 different weights to those heuristics [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L172).  
 
-These heuristics take into account:
+The heuristic takes into account:
 
   - The coin parity [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L22-L34)
   - The mobility [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L37-L72)
@@ -56,8 +55,7 @@ These heuristics take into account:
 ### Performances
 > To ensure the best **performance** and to improve the **bot playing time** the Game Engine use a [cache.pl](./utils/cache.pl) system.  
 
-The Cache allow to not recompute the Heuristic of a board if prolog has
-already seen it [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L183-L204).
+The Cache saves the Heuristic value of a given board. [here](https://github.com/Drakirus/othello-prolog/blob/05cecc989db8e5ec041380c2ba5f77377fa3f524/ai/heuristic.pl#L183-L204).
 
 This method saves (roughly):
   > - **20000** call out of **36000** when running a AlphaBeta of Depth 4 (-1min30 save on my machine **2min10** vs **3min40**).
