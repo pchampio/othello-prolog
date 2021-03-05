@@ -103,5 +103,7 @@ Evidence appears: Alpha-Beta is still not the reincarnation of pure optimization
        
   4. Remove the ugly if/then/else
   
-  5. GnuProlog (2x faster)
+  5. Make use of board symmetrys to improve the Cache systems 
+  
+  6. GnuProlog (2x faster)
   
