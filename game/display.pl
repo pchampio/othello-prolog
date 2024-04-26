@@ -2,7 +2,7 @@
 tab(' '). % default spacer
 
 % "dynamic" means that predicate's definition may change during run time
-:- dynamic nocolor.
+:- dynamic nocolor/0.
 
 nocolor.
 
